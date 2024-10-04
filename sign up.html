@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The E-Tailer</title>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="img/logo.jpg" class="logo" width="100"></a>
+        <div>
+            <ul id="navbar">
+                <li><a  href="index.html">Home</a></li>
+                <li><a class="active" href="sign up.html">Sign Up</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="shop.html"><i class="fas fa-shopping-cart"></i>
+                </a></li>
+
+            </ul>
+        </div>
+        
+    </head>
+    <body>
+      
+        <div class="container">
+            <!-- Registration Form -->
+            <section id="registration">
+                <h2>Register to Shop</h2>
+                <form id="registrationForm" action="#" method="POST">
+                    <label for="name">Full Name:</label><br>
+                    <input type="text" id="name" name="name" required><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br>
+                    <label for="password">Password:</label><br>
+                    <input type="password" id="password" name="password" required><br>
+                    <label for="phone">Phone Number:</label><br>
+                    <input type="tel" id="phone" name="phone" required><br>
+                    <button type="submit">Register</button>
+                </form>
+                <p id="successMessage" style="display:none; color:green;">Registration successful!</p>
+            </section>
+        </div>
+  
+    </body>
+    </html>
